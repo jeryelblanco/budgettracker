@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buget Tracker</title>
+    <script src="index.js" defer></script>
+    <link href = "index.css" rel = "stylesheet"></link>
+</head>
+<body>
+    <header>
+        <h1>BUDGET TRACKER</h1>
+    </header>
+    <table class = "table">
+        <tr>
+            <th>DAY</th>
+            <th>DESCRIPTION</th>
+            <th>INCOME</th>
+            <th>EXPENSES</th>
+        </tr>
+        <tr id = "inputs">
+            <th>
+                <input type = "date" id = "date">
+            </th>
+            <th>
+                <input type = "text" id = "desciription">
+            </th>
+            <th>
+                <input type = "text" id = "income">
+            </th>
+            <th>
+                <input type = "text" id = "expenses">
+            </th>
+            <th><button id = "addRow">+</button></th>
+        </tr>
+    </table>
+    <span id = "total"><h1>Net:</h1><h3 id = "totalAmount"></h3></span>
+
+</body>
+</html>
